@@ -31,3 +31,11 @@ if (formatCurrency(2000.4) === '20.00') {
 } else {
   console.log('failed');
 } // edge cases
+
+console.log('works with negative numbers');
+
+if (formatCurrency(-2095) === '-20.95') {
+  console.log('passed');
+} else {
+  console.log('failed');
+} // edge cases
